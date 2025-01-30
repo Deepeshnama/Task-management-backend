@@ -1,34 +1,53 @@
-# Task Management Backend
+# Task Management API
 
-This repository contains the backend for the Task Management application.
+This Task Management API was built using Node.js, Express, and MongoDB. It allows users to manage tasks and register/log in to access and manage tasks.
+
+
+
+#### To start the backend =====>  npm start
+
+
+
+### Base URL
+([https://task-management-backend-6m0b.onrender.com](https://task-management-backend-6m0b.onrender.com))
+
+---
 
 ## Routes
 
-main route   ==>   https://task-management-backend-6m0b.onrender.com
+### Task Routes
 
-### GET   https://task-management-backend-6m0b.onrender.com/api/tasks/getAllTasks
+- **GET all tasks**  
+  **Endpoint:** "/api/tasks/getAllTasks"
+  **Description:** Fetches all tasks in the database.  
 
-- Description: Fetch all tasks.
-- Response: JSON array of task objects.
 
-### POST  https://task-management-backend-6m0b.onrender.com/api/tasks/createTask
+- **Create task**
+- **Endpoint:** "/api/task/createTask" 
+  **Description:** Create task in the database.
 
-https://task-management-backend-6m0b.onrender.com/api/tasks/createTask
+  - **Get task by id**
+- **Endpoint:** "/api/task/:id"
+  **Description:** Fetches a task by its ID.
 
-- Description: Create a new task.
-- Request Body: JSON object containing task details.
-- Response: JSON object of the created task.
+  
+  - **Update task**
+- **Endpoint:** "/api/task/:id" 
+  **Description:** Updates an existing task by its ID.
 
-### PUT  https://task-management-backend-6m0b.onrender.com/api/tasks/:id
+- **Delete task**
+- **Endpoint:** "/api/task/:id"
+  **Description:** Delete a task by its ID.
 
-- Description: Update an existing task by ID.
-- Request Body: JSON object containing updated task details.
-- Response: JSON object of the updated task.
 
-### DELETE  https://task-management-backend-6m0b.onrender.com/api/tasks/:id
-- Description: Delete a task by ID.
-- Response: Status message indicating success or failure.
+### User Routes
 
-## Installation
+  
+- **Register a user**
+- **Endpoint:** "/api/users/register"
+  **Description:** Registers a new user.
 
-1. Clone the repository:
+  - **Login a user**
+- **Endpoint:** "/api/users/login"
+  **Description:** Logs in an existing user and returns a JWT token.
+
