@@ -1,0 +1,79 @@
+Assignment: Building a RESTful API for a Task Management System
+
+Objective:
+
+Develop a RESTful API using Node.js (Express.js framework) and MongoDB that allows users to
+perform CRUD operations (Create, Read, Update, Delete) on tasks for a task management system.
+
+Requirements:
+
+Task Model:
+
+Define a MongoDB schema for tasks with fields such as title, description, due date, priority, status,
+etc.
+
+API Endpoints:
+
+Implement CRUD operations for tasks using RESTful API endpoints.
+
+Include endpoints for:
+Creating a new task
+Retrieving a list of all tasks
+Retrieving a single task by ID
+Updating an existing task
+Deleting a task
+
+Validation and Error Handling:
+
+Implement validation for incoming data (e.g., required fields, data types).
+
+Handle errors gracefully and return appropriate HTTP status codes and error messages.
+
+Security:
+
+Implement basic authentication for API endpoints using JWT (JSON Web Tokens).
+Ensure that only authenticated users can perform CRUD operations on tasks.
+
+Testing:
+
+Write basic unit tests for the API endpoints using a testing framework like Jest or Mocha.
+
+Test CRUD operations, error handling, and authentication.
+
+Documentation:
+
+Provide clear documentation for the API endpoints, including how to use them and the expected
+request and response formats.
+
+Technical Considerations:
+
+Use Node.js with Express.js for building the RESTful API.
+
+Use MongoDB as the database for storing tasks.
+
+Implement JWT-based authentication for securing the API endpoints.
+
+Write clean, well-structured, and maintainable code with proper comments where necessary.
+
+Submission Guidelines:
+
+Create a new GitHub repository and commit your code to it.
+
+Provide clear instructions on how to run the API locally and how to test it.
+
+Any additional notes or explanations you wish to provide please add them to the Readme file of the
+GitHub repository link.
+
+Please share your submission with me ON EMAIL. (nikita@fluid.ai)
+In the email please share the following:
+
+1. Github repository link (Please ensure its a public repository) *
+
+2. URL of the platform to view (Netlify, Heroku etc.) *
+
+Note:
+
+Candidates should focus on implementing the core functionalities within the given timeframe. While
+additional features and refinements are encouraged, they are not required for this assignment. The
+emphasis is on demonstrating the ability to work with Node.js, Express.js, MongoDB, and basic
+authentication to build a RESTful API for a real-world application. in js
