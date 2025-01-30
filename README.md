@@ -23,20 +23,20 @@ This Task Management API was built using Node.js, Express, and MongoDB. It allow
 
 
 - **Create task**
-- **Endpoint:** "/api/task/createTask" 
+- **Endpoint:** "/api/tasks/createTask" 
   **Description:** Create task in the database.
 
   - **Get task by id**
-- **Endpoint:** "/api/task/:id"
+- **Endpoint:** "/api/tasks/:id"
   **Description:** Fetches a task by its ID.
 
   
   - **Update task**
-- **Endpoint:** "/api/task/:id" 
+- **Endpoint:** "/api/tasks/:id" 
   **Description:** Updates an existing task by its ID.
 
 - **Delete task**
-- **Endpoint:** "/api/task/:id"
+- **Endpoint:** "/api/tasks/:id"
   **Description:** Delete a task by its ID.
 
 
